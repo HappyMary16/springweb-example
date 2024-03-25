@@ -1,0 +1,8 @@
+PUT http://localhost:8080/simple/cats/Tom
+Content-Type: application/json
+
+{
+  "name": "Tom",
+  "behaviour": "CRAZY",
+  "birthday": "2024-03-25T10:44:11.716790Z"
+}
