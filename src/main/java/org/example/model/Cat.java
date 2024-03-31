@@ -8,6 +8,14 @@ public class Cat {
     private CatBehaviour behaviour;
     private Instant birthday;
 
+    public Cat() {
+    }
+
+    public Cat(String name, CatBehaviour behaviour) {
+        this.name = name;
+        this.behaviour = behaviour;
+    }
+
     public void setName(String name) {
         this.name = name;
     }

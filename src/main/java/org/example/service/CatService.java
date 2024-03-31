@@ -11,6 +11,11 @@ public class CatService {
 
     private final Map<String, Cat> cats = new HashMap<>();
 
+    public CatService() {
+        cats.put("Tom", new Cat("Tom", CatBehaviour.CALM));
+        cats.put("Oscar", new Cat("Oscar", CatBehaviour.NORMAL));
+    }
+
     public Cat getCat(String catName) {
         return cats.get(catName);
     }
