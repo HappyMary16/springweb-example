@@ -24,7 +24,6 @@
     </dependencies>
 
     <build>
-        <finalName>springweb-example</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
