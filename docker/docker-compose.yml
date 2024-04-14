@@ -1,0 +1,14 @@
+services:
+  server-example:
+    build:
+      context: ../
+      dockerfile: ./docker/server/Dockerfile
+    ports:
+      - "8080:8080"
+  client-example:
+    image: nginx:1.25.4
+    volumes:
+      - ../client:/usr/share/nginx/html:ro
+    ports:
+      - "8085:80"
+
