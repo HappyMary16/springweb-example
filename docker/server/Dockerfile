@@ -1,6 +1,6 @@
 FROM eclipse-temurin:21-jre
 
-COPY ./target/springweb-example.jar /usr/app/springweb-example.jar
+COPY ./target/springweb-example-1.0-SNAPSHOT.jar /usr/app/springweb-example-1.0-SNAPSHOT.jar
 
 WORKDIR /usr/app
 
